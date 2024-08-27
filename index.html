@@ -7,25 +7,13 @@
   <title>Rinterio</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-            button: '#a3e635',
-            custom: '#E7C1D3',
-          }
-        }
-      }
-    }
-  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
   <!-- <script>
     tailwind.config = {
@@ -307,7 +295,8 @@
 
           <div class="flex flex-col border p-8 lg:p-3 mt-8 ml-4 mr-4 mb-8 lg:m-0 rounded-2xl">
             <h1 class=" mt-2 mb-4">Commercial</h1>
-            <p class="mb-4">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+            <p class="mb-4">The barn house captivates with its blend of rustic charm <br> and modern. The barn house
+              captivates with its blend of <br> rustic charm and modern .</p>
 
             <div class="flex items-center gap-2 w-fit">
               <a class="btn font-extrabold p-0 bg-transparent border-none hover:bg-transparent ">View Details</a>
@@ -337,7 +326,7 @@
             </div>
 
           </div>
-          
+
           <div class="p-11 lg:p-0"><img src="assets/img5.png" alt=""></div>
         </div>
 
@@ -345,18 +334,125 @@
 
     </section>
 
-    <section>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <section class="flex items-center justify-center mt-5 mb-5">
+      <div class="stats shadow block lg:flex items-center justify-center text-center">
+        <div class="stat">
+          
+          <div class="stat-title">Total Likes</div>
+          <div class="stat-value text-primary text-lime-400">25.6K</div>
+          <div class="stat-desc">21% more than last month</div>
+        </div>
+      
+        <div class="stat ">
+          
+          <div class="stat-title">Page Views</div>
+          <div class="stat-value text-secondary text-lime-400">2.6M</div>
+          <div class="stat-desc">21% more than last month</div>
+        </div>
+      
+        <div class="stat">
+          
+          <div class="stat-value text-lime-400">96%</div>
+          <div class="stat-title">Happy Customer</div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="jennie">
+      <div class="p-11">
+        <div class="flex items-center justify-around">
+          <div class="flex items-center space-x-2 w-fit p-2 rounded-3xl bg-lime-300">
+            <div class="flex ml-2 mr-2">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+  
+  
+            <a class="text-xl font-bold">
+              Let’s Connect
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-4xl font-bold text-center">
+        <h1>Let’s Discuss Next Project</h1>
+      </div>
+
+      <div class="text-center mt-8 font-medium">
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring
+          weathered wood, sleek metal accents.</p>
+
+      </div>
+
+      <div class="flex items-center justify-center gap-10 mt-10">
+        <input type="text" placeholder="First Name" class="p-3 w-80 rounded-2xl">
+        <input type="text" placeholder="Last Name" class="p-3 w-80 rounded-2xl">
+      </div>
+
+      <div class="flex items-center justify-center gap-10 mt-5">
+        <input type="text" placeholder="Phone Number" class="p-3 w-80 rounded-2xl">
+        <input type="text" placeholder="E-mail" class="p-3 w-80 rounded-2xl">
+      </div>
+
+      <div class="flex items-center justify-center mt-5 ">
+        <textarea name="" id="" cols="70" rows="15" placeholder="Write Your Massage"></textarea>
+      </div>
+
+      <div class="flex items-center justify-center mt-5 rounded-3xl bg-lime-300">
+        <div class="flex items-center justify-center space-x-2 p-2  ">
+          <div class="flex ml-2 mr-2">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+
+          <a class="btn bg-transparent hover:bg-transparent border-none text-xl font-bold">
+            Send Mail
+          </a>
+        </div>
+      </div>
     </section>
 
 
   </main>
+
+  <footer class="bg-black p-8 mt-5">
+    <div>
+      <div class="flex items-center justify-center space-x-2 order-first">
+            <div class="w-10 h-10 flex items-center justify-center bg-lime-300 rounded-full p-2">
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+
+
+            <a class="text-3xl font-extrabold text-white">
+              Rinterio
+            </a>
+          </div>
+    </div>
+    <div class="text-white text-center mt-5">
+      <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+    </div>
+
+    <div class="text-white gap-x-20 mt-5 flex items-center justify-center">
+      <ul>
+        <li>
+          <a href="#" class="mr-5">Home</a>
+          <a href="#" class="mr-5">Services</a>
+          <a href="#" class="mr-5">Blogs</a>
+          <a href="#" class="mr-5">Portfolio</a>
+          <a href="#" class="mr-5">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="flex items-center justify-center mt-5">
+      <div class="btn flex items-center justify-center w-fit rounded-3xl gap-4 bg-lime-400">
+        <a class="ml-3 font-extrabold">Book Consult</a>
+        <div class="w-10 h-10 flex items-center justify-center bg-black text-white rounded-full p-2 mr-2">
+          <i class="fa-solid fa-arrow-right -rotate-45"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 </body>
